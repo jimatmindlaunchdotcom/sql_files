@@ -55,7 +55,6 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES ('ii90475','Jim','Console','jim@jimconsole.com','password',0,1,'2015-05-01 19:50:02',NULL,NULL,NULL,'1086 West King Rd','EL 312',NULL,NULL,2,1,NULL,NULL,NULL,NULL,0),('joey_console','Joe','Console','joseph.console@sjprephawks.org','password',0,0,'2015-05-01 19:52:04',NULL,NULL,NULL,'1086 West King Rd','EL 312',NULL,NULL,29,0,2,NULL,NULL,NULL,0),('tconsole','Thomas','Console','tommy.console@jimconsole.com','password',0,0,NULL,NULL,NULL,NULL,'1086 West King Rd.','EL 312',NULL,NULL,30,0,2,'Malvern','PA','19355',0);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
